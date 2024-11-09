@@ -2,20 +2,84 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+body{
+  background: rgb(140,76,161);
+background: linear-gradient(90deg, rgba(140,76,161,1) 0%, rgba(75,75,98,1) 30%, rgba(75,75,98,1) 70%, rgba(140,76,161,1) 100%);
 }
+.skill1{
+  background: rgb(140,76,161);
+background: linear-gradient(90deg, rgba(140,76,161,1) 0%, rgba(75,75,98,1) 30%, rgba(75,75,98,1) 70%, rgba(140,76,161,1) 100%);
+  width: 150px;
+  text-align: center;
+  font-size: 22px;
+  border-radius: 8px;
+}
+.skill2{
+  background: rgb(140,76,161);
+background: linear-gradient(90deg, rgba(140,76,161,1) 0%, rgba(75,75,98,1) 30%, rgba(75,75,98,1) 70%, rgba(140,76,161,1) 100%);
+  width: 150px;
+  text-align: center;
+  font-size: 22px;
+  margin-left: 50px;
+  border-radius: 8px;
+  
+}
+.skill14{
+  background: rgb(133.33, 133.33, 133.33);
+  width: 150px;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+.FaGithub{
+  color: black;
+  width: 25px;
+  height: 25px;
+  margin-right: 6px;
+}
+.SiVercel{
+  color: black;
+  width: 25px;
+  height: 25px;
+  margin-right: 6px;
+}
+.FaPhone{
+  color: black;
+  width: 30px;
+  height: 30px;
+  margin-left: 100px;
+}
+.MdEmail{
+  color: black;
+  width: 30px;
+  height: 30px;
+  margin-left: 105px;
+}
+.FaLocationDot{
+  color: black;
+  width: 30px;
+  height: 30px;
+  margin-left: 104px;
+}
+.FaLinkedin{
+  color: black;
+  width: 30px;
+  height: 30px;
+  margin-left: 102px;
+}
+.LN{
+  flex: auto;
+  text-align: center;
+  margin-top: 50;
+  color: white;
+  font-size: 40px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.VGH{
+  width: 150px;
+  height: 35px;
+  margin-left: 1050px;
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
