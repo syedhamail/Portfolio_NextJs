@@ -60,7 +60,7 @@ const Header = () => {
             </Link>
             <Link href={"/projects"}>
               <h1 className="text-white text-lg hover:text-fuchsia-500">
-                PROJECT'S
+                PROJECT{`'`}S
               </h1>
             </Link>
             <Link href={"/contact-us"}>
@@ -82,7 +82,7 @@ const Header = () => {
               <h1 className="hover:text-fuchsia-500">EDUCATION</h1>
             </Link>
             <Link href={"/projects"}>
-              <h1 className="hover:text-fuchsia-500">PROJECT'S</h1>
+              <h1 className="hover:text-fuchsia-500">PROJECT{`'`}S</h1>
             </Link>
             <Link href={"/contact-us"}>
               <h1 className="hover:text-fuchsia-500">CONTACT US</h1>

@@ -15,7 +15,7 @@ export default function ContactUs() {
               GET IN TOUCH
             </h1>
             <h2 className="text-1xl text-fuchsia-500 tracking-widest font-bold font-medium title-font mb-1">
-              <i>Let's Work Together</i>
+              <i>Let{`'`}s Work Together</i>
             </h2>
           </div>
 

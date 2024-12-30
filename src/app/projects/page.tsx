@@ -1,6 +1,6 @@
 import { SiVercel } from "react-icons/si";
 import Header from "../components/header";
-import { FaGithub } from "react-icons/fa6";
+
 export default function Projects() {
   return (
     <div>
@@ -13,7 +13,7 @@ export default function Projects() {
           <div className="flex flex-wrap w-full mb-20">
             <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
               <h1 className="sm:text-4xl text-2xl font-medium title-font mb-2 text-white">
-                PROJECT'S
+                PROJECT{`'`}S
               </h1>
               <div className="h-1 w-20 bg-fuchsia-500 rounded"></div>
             </div>
